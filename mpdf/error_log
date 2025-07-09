@@ -1,0 +1,64 @@
+[22-Jul-2021 17:53:22 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Invalid input characters. Did you set $mpdf->in_charset properly? in /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php:25990
+Stack trace:
+#0 /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php(13153): Mpdf\Mpdf->purify_utf8('\r\n<!DOCTYPE htm...', false)
+#1 /home/escuela3/public_html/mpdf/index.php(174): Mpdf\Mpdf->WriteHTML('\r\n<!DOCTYPE htm...')
+#2 {main}
+  thrown in /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php on line 25990
+[22-Jul-2021 17:53:26 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Invalid input characters. Did you set $mpdf->in_charset properly? in /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php:25990
+Stack trace:
+#0 /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php(13153): Mpdf\Mpdf->purify_utf8('\r\n<!DOCTYPE htm...', false)
+#1 /home/escuela3/public_html/mpdf/index.php(174): Mpdf\Mpdf->WriteHTML('\r\n<!DOCTYPE htm...')
+#2 {main}
+  thrown in /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php on line 25990
+[22-Jul-2021 17:53:27 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Invalid input characters. Did you set $mpdf->in_charset properly? in /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php:25990
+Stack trace:
+#0 /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php(13153): Mpdf\Mpdf->purify_utf8('\r\n<!DOCTYPE htm...', false)
+#1 /home/escuela3/public_html/mpdf/index.php(174): Mpdf\Mpdf->WriteHTML('\r\n<!DOCTYPE htm...')
+#2 {main}
+  thrown in /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php on line 25990
+[22-Jul-2021 17:53:40 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Invalid input characters. Did you set $mpdf->in_charset properly? in /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php:25990
+Stack trace:
+#0 /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php(13153): Mpdf\Mpdf->purify_utf8('\r\n<!DOCTYPE htm...', false)
+#1 /home/escuela3/public_html/mpdf/index.php(174): Mpdf\Mpdf->WriteHTML('\r\n<!DOCTYPE htm...')
+#2 {main}
+  thrown in /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php on line 25990
+[22-Jul-2021 17:53:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Invalid input characters. Did you set $mpdf->in_charset properly? in /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php:25990
+Stack trace:
+#0 /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php(13153): Mpdf\Mpdf->purify_utf8('\r\n<!DOCTYPE htm...', false)
+#1 /home/escuela3/public_html/mpdf/index.php(174): Mpdf\Mpdf->WriteHTML('\r\n<!DOCTYPE htm...')
+#2 {main}
+  thrown in /home/escuela3/public_html/mpdf/vendor/mpdf/mpdf/src/Mpdf.php on line 25990
+[02-Aug-2021 13:53:31 UTC] PHP Notice:  Undefined variable: html in /home/escuela3/public_html/mpdf/index.php on line 155
+[17-Sep-2021 21:46:50 UTC] PHP Notice:  Undefined index: id in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 11
+[17-Sep-2021 21:46:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[17-Sep-2021 21:46:50 UTC] PHP Notice:  Undefined variable: html in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 163
+[18-Sep-2021 02:23:34 UTC] PHP Notice:  Undefined index: id in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 11
+[18-Sep-2021 02:23:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[18-Sep-2021 02:23:34 UTC] PHP Notice:  Undefined variable: html in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 163
+[18-Sep-2021 02:30:18 UTC] PHP Notice:  Undefined index: id in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 11
+[18-Sep-2021 02:30:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[18-Sep-2021 02:30:18 UTC] PHP Notice:  Undefined variable: html in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 163
+[18-Sep-2021 02:30:21 UTC] PHP Notice:  Undefined index: id in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 11
+[18-Sep-2021 02:30:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[18-Sep-2021 02:30:21 UTC] PHP Notice:  Undefined variable: html in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 163
+[24-Jul-2022 13:56:35 America/Bogota] PHP Notice:  Undefined index: id in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 11
+[24-Jul-2022 13:56:35 America/Bogota] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[24-Jul-2022 13:56:35 America/Bogota] PHP Notice:  Undefined variable: html in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 163
+[24-Jul-2022 13:57:03 America/Bogota] PHP Notice:  Undefined index: id in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 11
+[24-Jul-2022 13:57:03 America/Bogota] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[24-Jul-2022 13:57:03 America/Bogota] PHP Notice:  Undefined variable: html in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 163
+[04-Feb-2024 08:24:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[05-Feb-2024 21:14:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[21-Feb-2024 00:29:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[21-Feb-2024 09:49:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[22-Feb-2024 23:50:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[02-Mar-2024 13:32:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[05-Mar-2024 00:56:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[07-Mar-2024 13:20:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[07-Mar-2024 14:51:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[10-Mar-2024 00:26:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[12-Mar-2024 13:35:00 America/Bogota] PHP Notice:  Undefined index: id in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 11
+[12-Mar-2024 13:35:00 America/Bogota] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 14
+[12-Mar-2024 13:35:00 America/Bogota] PHP Notice:  Undefined variable: html in /home/escuela3/admin.escuelaconduccion.org/mpdf/index.php on line 163
+[06-Sep-2024 16:28:54 America/Bogota] PHP Notice:  Undefined variable: html in /home/escuela3/admin.autorivera.com/mpdf/index.php on line 163
+[07-Oct-2024 09:56:12 America/Bogota] PHP Notice:  Undefined variable: html in /home/escuela3/admin.autorivera.com/mpdf/index.php on line 163

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+:root {
+    
+    --main-color: rgba(7, 39, 134, 0.96);
+    --color-dark: #1D2231;
+    --text-grey: #8390A2;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+fieldset {
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    color: var(--color-dark);
+    margin-bottom: 10px;
+    
+}
+
+fieldset legend {
+    text-align: center;
+    
+}
+
+.card-table input{
+    width: 100%;
+    border: solid 1px black;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+
+.form-control {
+    width: 100%;
+    border: solid 1px black;
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+.form-boton {
+    margin-top: 5px;
+    color: white;
+    width: 100%;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(7, 39, 134, 0.96);
+    cursor: pointer;
+}
+
+.form-boton:hover {
+    background: rgba(31, 85, 245, 0.96);
+}
+
+.card-table .form-one {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 8px;
+    
+}
+
+.card-table .form-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 8px;
+}
+.card-table .marker {
+    color: #fff;
+    font-size: 1rem; 
+    align-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(106, 103, 103, 0.56);
+    
+}
+
+.card-table .print {
+    color: #fff;
+    font-size: 1rem; 
+    align-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(0, 22, 142);
+    
+}
+
+.card-table .trash {
+    color: #fff;
+    font-size: 1rem; 
+    align-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(237, 0, 0, 0.92);
+    
+}
+
+
+
+.card-table .marker:hover {
+    color: #fff;
+    background: rgba(23, 23, 23, 0.56);
+    
+}
+
+.card-table .print:hover {
+    color: #fff;
+    background: rgb(56, 171, 232);
+    
+}
+
+.card-table .trash:hover {
+    color: #fff;
+    background: rgba(178, 0, 0, 0.92);
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+.card-table .form-one {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 8px;
+}
+
+}

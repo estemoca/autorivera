@@ -1,0 +1,4 @@
+[20-Apr-2023 00:06:49 America/Bogota] PHP Notice:  Undefined variable: _SESSION in /home/escuela3/admin.escuelaconduccion.org/includes/header.php on line 26
+[20-Apr-2023 00:06:49 America/Bogota] PHP Notice:  Undefined variable: _SESSION in /home/escuela3/admin.escuelaconduccion.org/includes/header.php on line 31
+[20-Apr-2023 00:06:49 America/Bogota] PHP Notice:  Undefined variable: _SESSION in /home/escuela3/admin.escuelaconduccion.org/includes/header.php on line 45
+[20-Apr-2023 00:06:49 America/Bogota] PHP Notice:  Undefined variable: _SESSION in /home/escuela3/admin.escuelaconduccion.org/includes/header.php on line 64
